@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Contains quick_links.module..
+ */
+
+use Drupal\Core\Block\BlockPluginInterface;
+
+/**
+ * Loads quick-links.js file for the Quick Links block.
+ */
+function quick_links_block_view_alter(array &$build, BlockPluginInterface $block) {
+  if ($build['#id'] === "quicklinks") {
+    $build['#attached']['library'][] = 'quick_links/quick-links';
+  }
+}

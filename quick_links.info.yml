@@ -1,0 +1,5 @@
+name: Quick Links
+type: module
+description: Adds a Quick Links block that initially lists default links defined by site administrator which are eventually replaced with new links based on site users page visiting.
+core: 8.x
+package: Quick Links

@@ -1,0 +1,14 @@
+{
+  "name": "drupal/quick_links",
+  "type": "drupal-module",
+  "description": "Adds a Quick Links block that initially lists default links defined by site administrator which are eventually replaced with new links based on site users page visiting.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/quick_links",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/quick_links",
+    "source": "http://cgit.drupalcode.org/quick_links"
+  },
+  "require": { }
+}
